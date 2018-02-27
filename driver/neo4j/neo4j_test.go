@@ -4,10 +4,10 @@ import (
 	"os"
 	"testing"
 
+	"github.com/danielfbm/migrate/file"
+	"github.com/danielfbm/migrate/migrate/direction"
+	pipep "github.com/danielfbm/migrate/pipe"
 	"github.com/jmcvetta/neoism"
-	"github.com/mattes/migrate/file"
-	"github.com/mattes/migrate/migrate/direction"
-	pipep "github.com/mattes/migrate/pipe"
 )
 
 // TestMigrate runs some additional tests on Migrate().

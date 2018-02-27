@@ -11,10 +11,10 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/danielfbm/migrate/driver"
+	"github.com/danielfbm/migrate/file"
+	"github.com/danielfbm/migrate/migrate/direction"
 	"github.com/go-sql-driver/mysql"
-	"github.com/mattes/migrate/driver"
-	"github.com/mattes/migrate/file"
-	"github.com/mattes/migrate/migrate/direction"
 )
 
 type Driver struct {

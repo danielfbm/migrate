@@ -54,7 +54,7 @@
   name = "github.com/lib/pq"
 
 [[constraint]]
-  name = "github.com/mattes/migrate"
+  name = "github.com/danielfbm/migrate"
   version = "1.3.2"
 
 [[constraint]]

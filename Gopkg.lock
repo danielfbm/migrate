@@ -150,7 +150,7 @@
   revision = "88edab0803230a3898347e77b474f8c1820a1f20"
 
 [[projects]]
-  name = "github.com/mattes/migrate"
+  name = "github.com/danielfbm/migrate"
   packages = [
     "driver",
     "driver/bash",
